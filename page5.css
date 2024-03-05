@@ -1,0 +1,129 @@
+.page5 {
+    background: linear-gradient(to top, rgb(8, 20, 70), rgb(74, 73, 143));
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.page5-2 {
+    max-width: calc(100vw - 50px);
+    height: fit-content;
+    margin: 0 auto;
+    display: flex;
+    gap: 20rem;
+    padding: 7rem 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contact {
+    width: 45rem;
+    height: fit-content;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.address {
+    width: 40rem;
+    height: fit-content;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.social {
+    width: 40rem;
+    height: fit-content;
+    gap: 5rem;
+    flex-wrap: wrap;
+    display: flex;
+    margin: 0 auto; 
+}
+.item1 {
+    display: flex;
+    gap: 2rem;
+}
+.item2 {
+    display: flex;
+    gap: 2rem;
+}
+.item1 > h1 {
+    font-size: 4rem;
+    color: white;
+    text-transform: capitalize;
+}
+.item1 > p {
+    font-size: 3rem;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+}
+.item2 > h1 {
+    font-size: 4rem;
+    color: white;
+    text-transform: capitalize;
+}
+.item2 > p {
+    font-size: 3rem;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+}
+.address > p {
+    font-size: 3rem;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+}
+.address > h1 {
+    font-size: 4rem;
+    color: white;
+    text-transform: capitalize;
+}
+.icons-a {
+    fill: white;
+    width: 5rem;
+    height: 5rem;
+    margin: 0 auto;
+}
+.social > a {
+    width: fit-content;
+    height: fit-content;
+    /* padding-top: 4rem; */
+}
+
+@media (max-width: 1000px) {
+    .contact , .social , .address {
+        margin: 0 0 ;
+    }
+}
+#icon1:hover {
+    transform: rotateY(360deg);
+    transition: all 1s linear;
+}
+#icon2:hover {
+    transform: rotateY(360deg);
+    transition: all 1s linear;
+}
+#icon3:hover {
+    transform: rotateY(360deg);
+    transition: all 1s linear;
+}
+#icon4:hover {
+    transform: rotateY(360deg);
+    transition: all 1s linear;
+}
+@media (max-width: 1000px) {
+    .page5-2 {
+        display: block;
+    }
+    .contact{
+        padding: 5rem 0;
+    }
+    .address{
+        padding: 2rem 0;
+    }
+    .social{
+        padding: 5rem 0;
+    }
+}
